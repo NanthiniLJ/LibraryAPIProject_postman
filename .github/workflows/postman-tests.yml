@@ -7,9 +7,8 @@ on:
       - main
   workflow_dispatch:
 
-schedule:
-  - cron: '12 20 21 10 *'
-    timezone: 'Asia/Kolkata'
+  schedule:
+    - cron: '17 20 21 10 *'
 
 jobs:
   api-tests:
