@@ -1,0 +1,22 @@
+{
+	"id": "8da8b4d9-ee8c-4b52-843c-cb950105e698",
+	"name": "UAT",
+	"values": [
+		{
+			"key": "base_url",
+			"value": "https://rahulshettyacademy.com",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "book_id",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"color": null,
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2026-10-21T15:24:12.404Z",
+	"_postman_exported_using": "Postman/12.33.2"
+}
