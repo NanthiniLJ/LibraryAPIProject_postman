@@ -7,6 +7,10 @@ on:
       - main
   workflow_dispatch:
 
+schedule:
+  - cron: '12 20 21 10 *'
+    timezone: 'Asia/Kolkata'
+
 jobs:
   api-tests:
     runs-on: ubuntu-latest
