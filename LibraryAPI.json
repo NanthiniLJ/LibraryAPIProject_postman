@@ -293,6 +293,10 @@
               "pm.test(\"validate Response has msg field\", function ()\r",
               "{\r",
               "    pm.expect(jsonData).to.have.property(\"msg\");\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Response time is less than 200ms\", function () {\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(200);\r",
               "});"
             ],
             "type": "text/javascript",
